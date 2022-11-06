@@ -1,0 +1,73 @@
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
+
+  .carousel-caption {
+    position: absolute; 
+    right: 10%;
+    top: 35%; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 25%;
+    padding-left: 23%;
+    z-index: 10;
+    text-align: center;
+}
+
+
+.oscuro {
+    filter: grayscale(5%)
+    contrast(99%)
+    brightness(75%);
+    
+}
+
+
+.texto{
+    filter: brightness(1.75);
+    color: white;
+ 
+}
+
+.negro{
+    background-color: rgb(54, 52, 52);
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.borde{
+    text-decoration:underline;
+text-decoration-style: dotted;
+}
+
+.boton{
+    background-color: rgb(121, 180, 76);
+    padding-right: 21%;
+    padding-left: 21%;
+}
+
+.colorf{
+    background-color: rgb(20, 20, 59);
+}
+
+.titulo{
+    text-align: right;
+}
+
+.espaciado{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.hah{
+   width: 100%;
+
+}
